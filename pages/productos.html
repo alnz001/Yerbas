@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Productos Profesional</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="prod-page-container">
+        <!-- Barra de búsqueda en lugar del título -->
+        <div class="prod-search-bar">
+            <input type="text" placeholder="Buscar productos..." id="prod-search-input">
+            <button id="prod-search-btn">🔍</button>
+        </div>
+        <div class="prod-grid" id="prod-grid">
+            <div class="prod-card" data-description="Producto premium de alta calidad, ideal para uso diario. Incluye garantía de 1 año y soporte técnico.">
+                <img src="../img/img1.jpeg" alt="Producto 1">
+                <h3>Cafetera Electrica</h3>
+                <p class="prod-description">Descripción breve del producto 1.</p>
+                <p class="prod-price">$20.000</p>
+                <div class="prod-quantity">
+                    <button class="prod-qty-btn" data-action="decrease">-</button>
+                    <input type="number" class="prod-qty-input" value="1" min="1" readonly>
+                    <button class="prod-qty-btn" data-action="increase">+</button>
+                </div>
+                <button class="prod-buy-btn">Comprar</button>
+            </div>
+            <div class="prod-card" data-description="Innovador y eficiente, perfecto para profesionales. Envío gratuito incluido y materiales duraderos.">
+                <img src="../img/img2.jpeg" alt="Producto 2">
+                <h3>Termo Standley</h3>
+                <p class="prod-description">Descripción breve del producto 2.</p>
+                <p class="prod-price">$80.999</p>
+                <div class="prod-quantity">
+                    <button class="prod-qty-btn" data-action="decrease">-</button>
+                    <input type="number" class="prod-qty-input" value="1" min="1" readonly>
+                    <button class="prod-qty-btn" data-action="increase">+</button>
+                </div>
+                <button class="prod-buy-btn">Comprar</button>
+            </div>
+            <div class="prod-card" data-description="Diseño elegante con accesorios incluidos. Versátil y resistente para uso intensivo.">
+                <img src="../img/img3.jpeg" alt="Producto 3">
+                <h3>Termo</h3>
+                <p class="prod-description">Descripción breve del producto 3.</p>
+                <p class="prod-price">$39.99</p>
+                <div class="prod-quantity">
+                    <button class="prod-qty-btn" data-action="decrease">-</button>
+                    <input type="number" class="prod-qty-input" value="1" min="1" readonly>
+                    <button class="prod-qty-btn" data-action="increase">+</button>
+                </div>
+                <button class="prod-buy-btn">Comprar</button>
+            </div>
+            <div class="prod-card" data-description="Ergonómico y cómodo. Materiales premium para máxima durabilidad y estilo moderno.">
+                <img src="../img/img5.jpeg" alt="Producto 4">
+                <h3>Yerba</h3>
+                <p class="prod-description">Descripción breve del producto 4.</p>
+                <p class="prod-price">$20.999</p>
+                <div class="prod-quantity">
+                    <button class="prod-qty-btn" data-action="decrease">-</button>
+                    <input type="number" class="prod-qty-input" value="1" min="1" readonly>
+                    <button class="prod-qty-btn" data-action="increase">+</button>
+                </div>
+                <button class="prod-buy-btn">Comprar</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Conecta con Nosotros</h3>
+                <div class="icons">
+                    <div class="icon" title="Cloud Services">
+                        <a href="https://www.instagram.com/yerbas.ml?igsh=YXhkM2Y2NHNlMW5h"><img src="https://img.icons8.com/ios-filled/50/000000/cloud.png" alt="Cloud"></a>
+                    </div>
+                    <div class="icon" title="Facebook">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/facebook.png" alt="Facebook">
+                    </div>
+                    <div class="icon" title="Twitter">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter">
+                    </div>
+                    <div class="icon" title="Instagram">
+                        <a href="https://www.instagram.com/yerbas.ml?igsh=YXhkM2Y2NHNlMW5h"><img src="https://img.icons8.com/ios-filled/50/000000/instagram.png" alt="Instagram"></a>
+                    </div>
+                    <div class="icon" title="LinkedIn">
+                        <a href=""><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="links">
+                    <a href="#" class="link">Políticas de Devolución</a>
+                    <a href="#" class="link">Términos y Condiciones</a>
+                </div>
+                <button class="repentance-btn" id="repentanceBtn">Botón de Arrepentimiento</button>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Yerbas ML. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+    <script src="../app/app.js"></script>
+</body>
+</html>
+
+
+
